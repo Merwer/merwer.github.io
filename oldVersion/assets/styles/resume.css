@@ -24,22 +24,22 @@ body {
 }
 
 /* Flash screen elements */
-div#flashscreen, div.white, div.lines {
+#flashscreen, .white, .lines {
 	height: 100%;
 	display: none;
 }
-div.white {
+.white {
 	background: white;
 }
-div.lightblue {
+.lightblue {
 	background: lightblue;
 	height: 30%;
 }
-div.darkblue {
+.darkblue {
 	background: darkblue;
 	height: 35%;
 }
-div.lightblue .text {
+.lightblue .text {
 	float: left;
 	margin-top: 50px;
 	margin-left: 200px;
@@ -59,13 +59,13 @@ div.lightblue .text {
 .round {
     border-radius: 5px;
 }
-div.stage {
+.stage {
 	width: 100px;
 	height: 130px;
 	display: inline-block;
 	padding: 15px;
 }
-div.stage div.selectbox {
+.stage .selectbox {
     width: 90px;
     height: 90px;
     background: #EFBC3D;
@@ -73,21 +73,21 @@ div.stage div.selectbox {
     box-shadow: -1px -1px 0px 3px #3DBCEF, -1px -1px 0px 6px #9EF7F3, 0px 0px 0px 8px #3DBCEF, 1px 1px 0px 8px #000000;
 	margin-bottom: 8px;
 }
-div.stage div.selectbox.completed {
+.stage .selectbox.completed {
     background: #000000;
 }
-div.stage div.selectbox img {
+.stage .selectbox img {
 	margin: 15px;
 }
-div.stage h2.caption {
+.stage h2.caption {
 	color: #9BFBEF;
 	padding: 0;
 	margin: 0;
 	text-align: center;
 }
-p.descriptivetext {
+.descriptivetext {
 	display: none;
 }
-div.stage:hover .selectbox {
+.stage:hover .selectbox {
     box-shadow: -1px -1px 0px 3px #F3CBD4, -1px -1px 0px 6px #FFF8FC, 0px 0px 0px 8px #F3CBD4, 1px 1px 0px 8px #000000;
 }
