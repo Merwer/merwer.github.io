@@ -73,9 +73,6 @@ div.stage div.selectbox {
     box-shadow: -1px -1px 0px 3px #3DBCEF, -1px -1px 0px 6px #9EF7F3, 0px 0px 0px 8px #3DBCEF, 1px 1px 0px 8px #000000;
 	margin-bottom: 8px;
 }
-div.stage div.selectbox.selected {
-    box-shadow: -1px -1px 0px 3px #F3CBD4, -1px -1px 0px 6px #FFF8FC, 0px 0px 0px 8px #F3CBD4, 1px 1px 0px 8px #000000;
-}
 div.stage div.selectbox.completed {
     background: #000000;
 }
@@ -90,4 +87,7 @@ div.stage h2.caption {
 }
 p.descriptivetext {
 	display: none;
+}
+div.stage:hover .selectbox {
+    box-shadow: -1px -1px 0px 3px #F3CBD4, -1px -1px 0px 6px #FFF8FC, 0px 0px 0px 8px #F3CBD4, 1px 1px 0px 8px #000000;
 }
