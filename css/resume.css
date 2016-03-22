@@ -1,0 +1,97 @@
+/* Main Elements */
+
+.main {
+    background: #0070ED;
+}
+
+#content {
+    width: 50vw;
+    margin-top: .5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Flash screen elements */
+
+.flashscreen {
+    width: 100%;
+    display: none;
+}
+
+.flashscreen .row:nth-child(even) {
+    height: 30%;
+}
+
+.flashscreen .row:nth-child(even) .line {
+    background: darkblue;
+}
+
+.flashscreen .row:nth-child(odd) {
+    height: 35%;
+}
+
+.flashscreen .row:nth-child(odd) .line {
+    background: lightblue;
+}
+
+.flashscreen .fill {
+    height: 100%;
+}
+
+.flashscreen .line {
+    width: 100%;
+    height: 100%;
+}
+
+.flashscreen.flashed .line {
+    opacity: .2;
+}
+
+
+/* The stage selection elements */
+
+.round {
+    border-radius: 5px;
+}
+
+.stage {
+    width: 100px;
+    height: 130px;
+    display: inline-block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+.stage .selectbox {
+    width: 90px;
+    height: 90px;
+    background: #EFBC3D;
+    border: 1px solid #000000;
+    box-shadow: -1px -1px 0px 3px #3DBCEF, -1px -1px 0px 6px #9EF7F3, 0px 0px 0px 8px #3DBCEF, 1px 1px 0px 8px #000000;
+    margin-bottom: 8px;
+}
+
+.stage .selectbox.completed {
+    background: #000000;
+}
+
+.stage .selectbox img {
+    margin: 15px;
+}
+
+.stage .caption {
+    color: #9BFBEF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.descriptivetext {
+    display: none;
+}
+
+.stage:hover .selectbox {
+    box-shadow: -1px -1px 0px 3px #F3CBD4, -1px -1px 0px 6px #FFF8FC, 0px 0px 0px 8px #F3CBD4, 1px 1px 0px 8px #000000;
+}
